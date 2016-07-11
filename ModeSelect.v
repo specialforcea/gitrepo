@@ -7,9 +7,7 @@ RFout
 );
 
 input refclk;
-input MODE;
-input RESET_N;
-input [0:5]C0;
+
 output [1:12]RFout;
 
 wire [1:12]RFout;
